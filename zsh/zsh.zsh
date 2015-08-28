@@ -23,3 +23,5 @@ exit () {
 }
 zle -N exit
 bindkey "^Q" exit
+
+alias stree='open -a SourceTree'
