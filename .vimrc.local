@@ -137,3 +137,5 @@ autocmd BufWinEnter * normal zR
 for f in split(glob('~/.stack.d/vim/*.vimrc'), '\n')
   exe 'source' f
 endfor
+
+Bundle 'Shougo/neocomplcache'
