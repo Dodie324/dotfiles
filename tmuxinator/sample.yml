@@ -1,7 +1,7 @@
 # ~/.tmuxinator/<%= name %>.yml
 
 name: <%= name %>
-root: ~/Work/<%= name %>
+root: ~/EverQuote/Projects/<%= name %>
 
 pre: mkdir -p ~/Work/<%= name %>
 
